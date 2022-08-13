@@ -1,0 +1,31 @@
+section > .container{
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+section > .container .title{
+    margin-top: 56px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 400;
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+
+.restaurant{
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+.restaurant> .restaurant-container__title{
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+.restaurant> .restaurant-container__description{
+    color: #626262;
+    font-size: 14px;
+}
+.restaurant> .restaurant-container__delivery-time{
+    font-size: 13px;
+    margin-top: 4px;
+}

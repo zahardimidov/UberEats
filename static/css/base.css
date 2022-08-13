@@ -1,0 +1,85 @@
+body{
+    font: 16px 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+    padding-left: 84px;
+    padding-right: 84px;
+}
+a{
+    font: 13px 'Roboto', sans-serif;
+    color: #1D1D1D;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header{
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+a.login{
+    border: 2px solid #E0E0E0;
+    padding: 14px 20px;
+    margin-right: 27px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #262626;
+    margin-top: 60px;
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+footer a{
+    color: #FFFFFF;
+}
+
+.social{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.facebook{
+    background-image: url("../img/facebook.png");
+}
+.twitter{
+    background-image: url("../img/twitter.svg");
+}
+.instagram{
+    background-image: url("../img/instagram.svg");
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.application-links{
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+}
+.application-link{
+    padding-inline: 20px;
+}
+footer a{
+    padding-block: 15px;
+}
+.permissions{
+    justify-content: space-around;
+}

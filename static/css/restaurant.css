@@ -1,0 +1,72 @@
+.banner{
+    height: 100%;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    padding-block: 60px;
+}
+
+.restaurant{
+    background-color: white;
+    width: 432px;
+    height: 204px;
+    margin-block: 80px;
+}
+.restaurant-container{
+    padding: 40px;
+}
+.restaurant .restaurant-container__title{
+    margin-bottom: 54px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.restaurant .restaurant-container__description{
+    color: #626262;
+    font-size: 14px;
+}
+.restaurant .restaurant-container__delivery-time{
+    border-radius: 16px;
+    background-color: #262626;
+    padding: 8px 16px;
+    color: white;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.menu-navigation a{
+    display: inline-block;
+    font-size: 16px;
+    color: #626262;
+    margin-block: 30px;
+    margin-right: 40px;
+}
+
+.menu-section{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+
+.dish {
+    margin-left: 0;
+    border: 2px solid #D8D8D8;
+}
+.dish > .info{
+    padding: 16px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dish .name{
+    margin-bottom: 4px;
+}
+.dish .recipe{
+    color: #626262;
+    font-size: 13px;
+}
+.dish .price{
+    font-weight: 600;
+}
